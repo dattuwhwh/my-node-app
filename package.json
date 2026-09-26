@@ -1,13 +1,13 @@
 {
-  "name": "my-node-app",
+  "name": "lab14-file-system",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs"
+    "task1": "node src/task1-read-write.js",
+    "task2": "node src/task2-directory.js",
+    "task3": "node src/task3-stats.js",
+    "task4": "node src/task4-streams.js",
+    "task5": "node src/task5-copy.js",
+    "task6": "node src/task6-search.js"
+  }
 }
