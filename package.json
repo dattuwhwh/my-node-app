@@ -9,5 +9,9 @@
     "task4": "node src/task4-streams.js",
     "task5": "node src/task5-copy.js",
     "task6": "node src/task6-search.js"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.4",
+    "mongodb": "^7.6.0"
   }
 }
