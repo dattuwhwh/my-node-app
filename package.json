@@ -11,7 +11,11 @@
     "task6": "node src/task6-search.js"
   },
   "dependencies": {
+    "@koa/router": "^15.7.0",
     "dotenv": "^18.0.4",
+    "joi": "^18.2.9",
+    "koa": "^3.2.1",
+    "koa-bodyparser": "^4.4.1",
     "mongodb": "^7.6.0"
   }
 }
